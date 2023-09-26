@@ -1,0 +1,37 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+open csv file
+load into dataframe
+read column 1, row 1
+read column 1, row 2
+sum(column1)
+
+// Exercise 2: Check if a Number is Even or Odd
+
+open csv
+load into dataframe
+read column 1, row 1
+divide the number by 2
+	If the result is a whole number, it is an even number.
+	IF the result has a fraction, it is an odd number.
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+
+
+open csv
+load into a datafram
+read column 1, rows 1 to 5
+calculate the average/mean of (column 1) and save as column_avg
+calculate the min of (column 1) and save as column_min
+calculate the max of (column 1) and save as column_min
+
+print "I have read the csv that you provided.  I have calculated an average of (column_avg), a minimum value of (column_min), and a maximum value of (column_max)."
+ 
+
+-- END --
